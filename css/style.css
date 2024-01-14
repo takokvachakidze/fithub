@@ -22,6 +22,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 25vh;
+  width: 100%;
   margin-bottom: 30px;
 }
 header::after {
@@ -61,12 +62,13 @@ header img {
   color: #ffb100;
 }
 
-.section-consult img {
+.main-section img {
   border-radius: 50%;
   border: 3px solid #ffd700;
   width: 100%;
 }
-.section-consult p {
+
+.main-section p {
   text-align: center;
   font-size: 150%;
   margin-top: 10px;
