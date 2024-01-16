@@ -1,1 +1,60 @@
-
+@media screen and (max-width: 480px) {
+  header {
+    height: 15vh;
+  }
+  header::after {
+    height: 10px;
+    width: 100%;
+    background-color: #ffd700;
+    content: "";
+    display: block;
+    margin-top: 30px;
+    position: absolute;
+    top: 100px;
+    left: -1px;
+    border-radius: 20% 50%;
+  }
+  header img {
+    top: 5%;
+    left: 3%;
+    width: 130px;
+  }
+  .slider {
+    display: block;
+    float: right;
+    margin-top: 30px;
+    font-size: 55px;
+    margin-right: 6px;
+  }
+  .row {
+    width: auto;
+  }
+  .main-nav {
+    display: none;
+  }
+  .first-img {
+    width: 70%;
+    margin-left: 50px;
+  }
+  .first-line {
+    width: 60%;
+    margin-left: 14px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 30px;
+  }
+  .second-line {
+    width: 80%;
+    margin-left: 14px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+  }
+  .heading-news {
+    margin-left: 80px;
+  }
+  .last-news img {
+    width: 80%;
+  }
+}
